@@ -20,7 +20,7 @@ def load_estimator():
     import os
     import pickle
 
-    if not os.path.exists("homwork/estimator.pickle"):
+    if not os.path.exists("homework/estimator.pickle"):
         return None
     with open("homework/estimator.pickle", "rb") as file:
         estimator = pickle.load(file)
